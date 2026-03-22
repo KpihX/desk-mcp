@@ -1,0 +1,21 @@
+[project]
+name = "desk-mcp"
+version = "0.1.0"
+description = "Desktop automation MCP — screenshot (calibrated), mouse/keyboard via xdotool, window inspection"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.0",
+    "Pillow>=10.0",
+    "dbus-python>=1.3",
+    "typer>=0.12",
+    "rich>=13.0",
+]
+
+[project.scripts]
+desk-mcp = "desk_mcp.cli:app"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv.sources]

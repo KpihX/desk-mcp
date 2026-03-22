@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Agent artifacts (private — never commit)
+.agent/
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+VIBE.md
+COPILOT.md
