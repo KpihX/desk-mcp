@@ -1,5 +1,12 @@
 # CHANGELOG — desk-mcp
 
+## [0.2.1] — 2026-03-22
+
+### Changed
+- [x] Added `desk-mcp` Gemini extension (`~/Work/AI/gemini_mcps/desk_mcp/` + `~/.gemini/extensions/desk-mcp/`)
+- [x] Added `desk-mcp` to Codex (`~/.codex/config.toml`), Copilot (`~/.copilot/mcp-config.json`), Vibe (`~/.vibe/config.toml`) — all with display env vars (DISPLAY, DBUS, XDG_RUNTIME_DIR, WAYLAND_DISPLAY)
+- [x] All-agent MCP table in `~/.agent/AGENT.md` §12 updated: `desk-mcp` row added, `k-whats-mcp` → `whats-mcp`
+
 ## [0.2.0] — 2026-03-22
 
 ### Changed

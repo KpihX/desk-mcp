@@ -1,6 +1,6 @@
 [project]
 name = "desk-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "Desktop automation MCP — screenshot (calibrated), mouse/keyboard via xdotool, window inspection"
 requires-python = ">=3.12"
 dependencies = [
